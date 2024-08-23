@@ -48,3 +48,20 @@ Join our community of developers creating universal apps.
 
 - [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+
+
+
+## Evaluation
+- elle possède 2 écrans : 
+ 
+- une liste de tache a réaliser avec un bouton ajouter (chaque tache peut être supprimée ou modifiée)
+un écran pour ajouter une tache a réaliser (juste un texte)
+
+- Elle possède un composant Bouton qui peut afficher une icone ou du texte (selon les props qui lui sont passées)
+C'est ce composant qui sera utilisé pour les boutons de votre application
+ 
+- Le stockage des données ce fait via le composant AsyncStorage (marche exactement comme un localStorage de navigateur web)
+
+L'UI est a votre convenance mais est disponible en thème sombre ou clair
+
+* bonus : on peut ajouter une photo à une tache

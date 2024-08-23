@@ -23,12 +23,30 @@ export default function TabLayout() {
           ),
         }}
       />
-      <Tabs.Screen
+      {/* <Tabs.Screen
         name="explore"
         options={{
           title: 'Explore',
           tabBarIcon: ({ color, focused }) => (
             <TabBarIcon name={focused ? 'code-slash' : 'code-slash-outline'} color={color} />
+          ),
+        }}
+      /> */}
+      <Tabs.Screen
+        name="todolist"
+        options={{
+          title: 'TodoList',
+          tabBarIcon: ({ color, focused }) => (
+            <TabBarIcon name={focused ? 'list-outline' : 'list-outline'} color={color} />
+          ),
+        }}
+      />
+      <Tabs.Screen
+        name="addTask"
+        options={{
+          title: 'Add Task',
+          tabBarIcon: ({ color, focused }) => (
+            <TabBarIcon name={focused ? 'add-circle-outline' : 'add-circle-outline'} color={color} />
           ),
         }}
       />
